@@ -1,0 +1,129 @@
+.nav-color {
+    background-color: #bdbcbc !important;
+}
+
+.color-home{
+    color: white !important;
+}
+
+.navbar-light,.navbar-nav,.nav-link {
+    color: rgba(187, 18, 18, 0.55);
+}
+
+.navbar-toggler {
+    background: white !important;
+}
+
+
+.nav-item a {
+    margin-left: 40px !important;
+}
+
+
+
+.hero {
+    padding: 0;
+    margin: 0;
+    
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#items {
+    text-align: center;
+    padding: 20px;
+    color: #6e6e6e;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+
+/*************** Flip Card ******/
+
+.responsive-flip-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.main-container {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: transparent;
+    float: left;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 40px;
+}
+
+.the-card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
+
+.the-card:hover {
+    transform: rotateY(180deg);
+}
+
+.the-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.the-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #bdbcbc;
+    color: white;
+    transform: rotateY(180deg);
+    text-align: center;
+    border-radius: 10px;
+    -webkit-backface-visibility: hidden;   /* safari */
+}
+
+.the-back h1 {
+    margin: 40px;
+}
+
+.the-back p {
+    margin: 0 20px;
+}
+
+.image {
+    border-radius: 10px;
+}
+
+.End {
+    background-color: rgb(8, 8, 8);
+    padding: 40px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.End a {
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+}
+
+.End a:hover {
+    color: white;
+}
